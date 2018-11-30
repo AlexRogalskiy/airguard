@@ -20,4 +20,17 @@ hills limit airflow throughout the city. The battle to mitigate that problem is 
 one of which is education and information. To that end, a startup named Airly arose in the late 2016,
 with the aim of developing and deploying a fine-grained network of low-cost, network-enabled pollution sensors,
 data from which would be easily accessible to general public in real time. Today, Airly has hundreds of sensors
-across Poland, and is starting the expansion to foreign cities.
+across Poland, and is starting its expansion to foreign cities.
+
+Despite the Airly network being a great early warning system, they only publish live data coupled with
+the history for the past 24 hours. According to their marketing team, they currently have no plans to share
+historic data for more significant periods of time. It is therefore impossible for me to achieve three things
+which I'd very much like to do:
+
+* identify hotspots that are persistent rather than temporary, whether through heavier emissions
+in the neighbourhood or unfavourable terrain structure
+* similarly, identify possible "green islands" within the city bounds
+* conduct data mining to investigate correlation between pollution level and wind speed, temperature, humidity etc.
+
+The obvious solution is to host my own harvesting bot that would periodically connect to Airly's API and retrieve
+data for a subset of sensors within the area of interest (depending on the usage limits that the API allows).
