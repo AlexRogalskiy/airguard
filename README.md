@@ -44,4 +44,15 @@ data for a subset of sensors within the area of interest (depending on the usage
 
 ### Platform architecture
 
-![](resources/platform-architecture.png)
+![Airguard platform architecture](resources/platform-architecture.png)
+
+1. Data harvesters: will be deployed serverless on [AWS Lambda](https://aws.amazon.com/lambda/) and scheduled
+to run periodically, retrieving data from Airly REST API. More harvesters may be added in the future,
+e.g. for https://danepubliczne.imgw.pl/ (wind speed and direction) etc.
+2. Data warehouse: for this purpose the best candidate should be a relational database,
+probably [Amazon Aurora](https://aws.amazon.com/rds/aurora/); may also investigate Redshift or RDS.
+3. REST API: deployed on EC2, built with Akka HTTP or Play.
+4. Webapp for visualizing data: deployed on Elastic Beanstalk, built with ReactJS, VueJS, or whatever else
+is in fashion the moment I start working on that component :)
+5. Since Airly's terms of service mandate that data retrieved from their API with a personal project cannot be
+made available to third parties, access to all components will be restricted using AWS IAM.
