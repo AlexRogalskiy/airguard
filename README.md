@@ -41,3 +41,7 @@ in the neighbourhood or unfavourable terrain structure
 
 The obvious solution is to host my own harvesting bot that would periodically connect to Airly's API and retrieve
 data for a subset of sensors within the area of interest (depending on the usage limits that the API allows).
+
+### Platform architecture
+
+![](resources/platform-architecture.png)
