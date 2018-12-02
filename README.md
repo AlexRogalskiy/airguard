@@ -19,8 +19,10 @@ in the winter, and compounded by the city's unfavourable location in a geologica
 hills limit airflow throughout the city. The battle to mitigate that problem is being fought on several fronts,
 one of which is education and information. To that end, a startup named Airly arose in the late 2016,
 with the aim of developing and deploying a fine-grained network of low-cost, network-enabled pollution sensors,
-data from which would be easily accessible to general public in real time. Today, Airly has hundreds of sensors
+data from which would be easily accessible to general public in real time. Today, Airly has more than 2000 sensors
 across Poland, and is starting its expansion to foreign cities.
+
+![Kraków and the surrounding area on a bad winter day](resources/airly-map-krakow.png)
 
 Despite the Airly network being a great early warning system, they only publish live data coupled with
 the history for the past 24 hours. According to their marketing team, they currently have no plans to share
