@@ -48,7 +48,7 @@ data for a subset of sensors within the area of interest (depending on the usage
 
 1. Data harvesters: will be deployed serverless on [AWS Lambda](https://aws.amazon.com/lambda/) and scheduled
 to run periodically, retrieving data from Airly REST API. More harvesters may be added in the future,
-e.g. for https://danepubliczne.imgw.pl/ (wind speed and direction) etc.
+e.g. for https://danepubliczne.imgw.pl (wind speed and direction), https://openweathermap.org/api (weather forecast), etc.
 2. Data warehouse: for this purpose the best candidate should be a relational database,
 probably [Amazon Aurora](https://aws.amazon.com/rds/aurora/); may also investigate Redshift or RDS.
 3. REST API: deployed on EC2, built with Akka HTTP or Play.
