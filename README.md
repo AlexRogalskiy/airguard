@@ -26,7 +26,7 @@ across Poland, and is starting its expansion to foreign cities.
   <a href="https://airly.eu/map/en/#50.06201,19.94098,i204">
     <img src="resources/airly-map-krakow.png" width="600"/>
   </a>
-  <div>Kraków and the surrounding area on a bad winter day</div>
+  <div align="center">Kraków and the surrounding area on a bad winter day</div>
 </p>
 
 Despite the Airly network being a great early warning system, they only publish live data coupled with
