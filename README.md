@@ -23,7 +23,9 @@ data from which would be easily accessible to general public in real time. Today
 across Poland, and is starting its expansion to foreign cities.
 
 <p align="center">
-  <img src="resources/airly-map-krakow.png" width="600"/>
+  <a href="https://airly.eu/map/en/#50.06201,19.94098,i204">
+    <img src="resources/airly-map-krakow.png" width="600"/>
+  </a>
   <div>Kraków and the surrounding area on a bad winter day</div>
 </p>
 
