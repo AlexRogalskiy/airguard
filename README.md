@@ -22,7 +22,9 @@ with the aim of developing and deploying a fine-grained network of low-cost, net
 data from which would be easily accessible to general public in real time. Today, Airly has more than 2000 sensors
 across Poland, and is starting its expansion to foreign cities.
 
-![Kraków and the surrounding area on a bad winter day](resources/airly-map-krakow.png)
+<img src="resources/airly-map-krakow.png" width="600" style="display: block; margin: auto;"/>
+
+Kraków and the surrounding area on a bad winter day
 
 Despite the Airly network being a great early warning system, they only publish live data coupled with
 the history for the past 24 hours. According to their marketing team, they currently have no plans to share
